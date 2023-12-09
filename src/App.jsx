@@ -24,7 +24,7 @@ function App() {
     <>
       <Header />
 
-      <div className="input-group">
+      <div id="user-input" className="input-group">
         {/* Issue placing 'input-group' with provided flex styling; replaced with grid - to review use of flex in solution */}
         <InputGroup
           labelName="Initial Investment"
