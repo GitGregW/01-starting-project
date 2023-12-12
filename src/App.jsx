@@ -53,7 +53,7 @@ function App() {
       </div>
       { investmentForm.duration > 0
         ? <InvestmentResult investmentForm={investmentForm} />
-        : <div className="center">Please enter the Duration in months</div>
+        : <div className="center">Please enter the Duration greater than 0</div>
       }
         
     </>
